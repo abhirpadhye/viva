@@ -1,0 +1,18 @@
+1. gcloud app create
+2. git clone \https://github.com/YashCoder03/cloud.git
+3. cloudshell workspace \cloud/hello_world
+
+4.python3 -m venv env
+source env/bin/activate
+
+5. pip install -r requirements.txt
+
+6. python main.py
+
+
+optional :
+
+gcloud config set project \
+    vivid-anthem-350717
+
+gcloud app deploy
